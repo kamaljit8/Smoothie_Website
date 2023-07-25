@@ -1,0 +1,71 @@
+<!-- kamaljit kaur 200537971 -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styling.css">
+    <title>Orders</title>
+</head>
+<body>
+   
+<div class="main">
+
+    <h1>Take a Break</h1>
+
+<form action="">
+
+    <h2>Let's Make Your Own Smoothie</h2>
+
+    <div class="main-In"  >
+        <label  for="flavour">Choose a flavour:</label>
+        <select name="flavour" id="flavour">
+            <option selected="true" value="strawberry">Strawberry</option>
+            <option value="banana">Banana</option>
+            <option value="mango">Mango</option>
+            <option value="blueberry">Blueberry</option>
+            <option value="orange">orange</option>
+            <option value="kiwi">kiwi</option>
+        </select>
+        </div>
+
+<div class="main-In" >
+  
+    <label class="mainlabel" for="Milk Base">Milk Base: </label>
+<input type="radio" name="milk" id="Cow Milk" value="cow milk">
+<label for="cow">Cow Milk</label>
+<input type="radio" name="milk" id="Almond Milk" value="almond milk">
+<label for="almond">Almond Milk</label>
+<input type="radio" name="milk" id="fatless Milk" value="milk 1% fat">
+<label for="milk 1% fat">Milk 1% fat</label>
+</div>
+
+
+<div class="main-In" >
+<label class="mainlabel" for="extras">Select extras:</label>
+        <input type="checkbox" name="extras" value="protein" id="protein">
+        <label for="protein">Protein Powder</label>
+        <input type="checkbox" name="extras" value="honey" id="honey">
+        <label for="honey">Honey</label>
+        <input type="checkbox" name="extras" value="spinach" id="Spinach">
+        <label for="Spinach">Spinach</label>
+</div>
+
+<div class="main-In" >
+        <label for="quantity">Quantity:</label>
+        <input type="number" name="quantity" id="quantity" min="1"  value="1">
+    </div>
+
+        <button  type="button" id="orderButton">Order</button>
+
+</form>
+
+<div id="smmmotth"></div>
+
+
+
+
+</div>
+<script src="js.js"></script>
+</body>
+</html>
